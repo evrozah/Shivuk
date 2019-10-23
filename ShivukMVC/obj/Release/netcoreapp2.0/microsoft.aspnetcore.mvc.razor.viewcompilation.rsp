@@ -1,0 +1,13 @@
+D:\Projects\ShivukMVC\ShivukMVC
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=ShivukMVC
+--content-root=D:\Projects\ShivukMVC\ShivukMVC
+--file=D:\Projects\ShivukMVC\ShivukMVC\Views\Home\Category.cshtml
+--file=D:\Projects\ShivukMVC\ShivukMVC\Views\Home\Index.cshtml
+--file=D:\Projects\ShivukMVC\ShivukMVC\Views\Home\Orders.cshtml
+--file=D:\Projects\ShivukMVC\ShivukMVC\Views\Shared\Components\NavigationMenu\Default.cshtml
+--file=D:\Projects\ShivukMVC\ShivukMVC\Views\Shared\Error.cshtml
+--file=D:\Projects\ShivukMVC\ShivukMVC\Views\Shared\_Layout.cshtml
+--file=D:\Projects\ShivukMVC\ShivukMVC\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=D:\Projects\ShivukMVC\ShivukMVC\Views\_ViewImports.cshtml
+--file=D:\Projects\ShivukMVC\ShivukMVC\Views\_ViewStart.cshtml

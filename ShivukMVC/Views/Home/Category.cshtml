@@ -1,0 +1,44 @@
+﻿@model IEnumerable<ShivukMVC.Models.Product>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<table>
+    <thead>
+       
+        <tr>
+
+            <th colspan="4" class="categoryTH">
+                @foreach (var product in Model)
+                {
+                    @Html.DisplayFor(modelItem => product.CategoryTitle)
+                    break;
+                }
+            </th>
+        </tr>
+        <tr>
+            <th>ברקוד</th>
+            <th>שם מוצר בעברית</th>
+            <th>כמות</th>
+            <th>הערה</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr class="prod-tr" onmouseover="changeColorOver(this)" onmouseout="changeColorOut(this)">
+                <td class="quantity">
+                    @Html.DisplayFor(modelItem => product.ProductID)
+                </td>
+                <td class="productTitle">
+                    <a href="@product.PictureLink">@product.HebrewTitle</a>
+                </td>
+                <td class="quantity">
+                    @Html.DisplayFor(modelItem => product.Quantity)
+                </td>
+                <td class="description">
+                    @Html.DisplayFor(modelItem => product.Description)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Order>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach (var order in Model)
+{
+    <table class="order">
+        <thead>
+            <tr>
+                <th colspan="3" class="categoryTH">הזמנה מספר @order.OrderNumber</th>
+            </tr>
+            <tr>
+                <th colspan="3">תאריך יציאת הזמנה&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @order.OrderClosingDate.Day.ToString()-@order.OrderClosingDate.Month.ToString()-@order.OrderClosingDate.Year.ToString()</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var products in order.OrderProducts)
+            {
+                @foreach (var product in products._Products)
+                {
+            <tr>
+                <td class="ordersBarcode">
+                    @product.ProductID
+                </td>
+                <td class="ordersProducts">
+                    <a href="@product.PictureLink">@product.HebrewTitle</a>
+                </td>
+                <td class="ordersQuantity">
+                    @product.Quantity
+                </td>
+            </tr>
+                }
+            }
+        </tbody>
+    </table>
+}
+

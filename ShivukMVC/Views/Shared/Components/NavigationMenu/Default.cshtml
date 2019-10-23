@@ -1,0 +1,8 @@
+﻿@model IEnumerable<ShivukMVC.Models.Category>
+    <ul>
+        <li><a asp-controller="Home" asp-action="Index">הכל</a></li>
+        @foreach (var item in Model)
+        {
+            <li><a asp-controller="Home" asp-action="Category" asp-route-categoryID=@item.CategoryID.ToString()>@item.CategoryTitle</a></li>
+        }
+    </ul>

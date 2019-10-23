@@ -1,0 +1,11 @@
+D:\Projects\ShivukMVC\ShivukMVC\bin\Release\netcoreapp2.0\ShivukMVC.deps.json
+D:\Projects\ShivukMVC\ShivukMVC\bin\Release\netcoreapp2.0\ShivukMVC.runtimeconfig.json
+D:\Projects\ShivukMVC\ShivukMVC\bin\Release\netcoreapp2.0\ShivukMVC.runtimeconfig.dev.json
+D:\Projects\ShivukMVC\ShivukMVC\bin\Release\netcoreapp2.0\ShivukMVC.dll
+D:\Projects\ShivukMVC\ShivukMVC\bin\Release\netcoreapp2.0\ShivukMVC.pdb
+D:\Projects\ShivukMVC\ShivukMVC\obj\Release\netcoreapp2.0\ShivukMVC.csproj.CoreCompileInputs.cache
+D:\Projects\ShivukMVC\ShivukMVC\obj\Release\netcoreapp2.0\ShivukMVC.AssemblyInfoInputs.cache
+D:\Projects\ShivukMVC\ShivukMVC\obj\Release\netcoreapp2.0\ShivukMVC.AssemblyInfo.cs
+D:\Projects\ShivukMVC\ShivukMVC\obj\Release\netcoreapp2.0\ShivukMVC.dll
+D:\Projects\ShivukMVC\ShivukMVC\obj\Release\netcoreapp2.0\ShivukMVC.pdb
+D:\Projects\ShivukMVC\ShivukMVC\obj\Release\netcoreapp2.0\ShivukMVC.csprojAssemblyReference.cache

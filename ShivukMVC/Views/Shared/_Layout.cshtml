@@ -1,0 +1,33 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <link href="~/css/mainLayout.css" rel="stylesheet" />
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+    <div id="wrapper">
+        <header id="headerMenu">
+            <nav>
+                <ul>
+                    <!--<li>@Html.ActionLink("רשימת מוצרים", "Index", "Home")</li>-->
+                    <!--<li>@Html.ActionLink("הזמנות", "Orders", "Home")</li>-->
+                    <li><a asp-controller="Home" asp-action="Index">רשימת מוצרים</a></li>
+                    <li><a asp-controller="Home" asp-action="Orders">הזמנות</a></li>
+                </ul>
+                </nav>
+            </header>
+            <aside>
+               @await Component.InvokeAsync("NavigationMenu")
+            </aside>
+            <section id="content">
+                @RenderBody();
+            </section>
+            <footer></footer>
+        </div>
+    </body>
+
+    </html>

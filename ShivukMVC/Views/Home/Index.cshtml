@@ -1,0 +1,50 @@
+﻿
+@model IEnumerable<Category>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+@foreach (var category in Model)
+{
+
+    @foreach (var products in category.CategoryProducts)
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4" class="categoryTH">@category.CategoryTitle</th>
+                </tr>
+                <tr>
+                    <th>ברקוד</th>
+                    <th>שם מוצר בעברית</th>
+                    <th>כמות</th>
+                    <th>הערה</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in products._Products)
+                {
+                <tr>
+                    <td class="quantity">
+                        @Html.DisplayFor(modelItem => product.ProductID)
+                    </td>
+                    <td class="productTitle">
+                        <a href="@product.PictureLink">@product.HebrewTitle</a>
+                    </td>
+                    <td class="quantity">
+                        @Html.DisplayFor(modelItem => product.Quantity)
+                    </td>
+                    <td class="description">
+                        @Html.DisplayFor(modelItem => product.Description)
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+@section scripts {
+        <script src="~/js/site.js" type="text/javascript"></script>
+}

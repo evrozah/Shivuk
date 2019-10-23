@@ -1,0 +1,171 @@
+﻿html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Assistant',sans-serif;
+    color: #777;
+    background-color:#333;
+}
+
+div#wrapper {
+    display: block;
+    text-align: center;
+    position: relative;
+    width:100%;
+}
+
+table {
+    border: solid 1px #6C7AE0;
+    /* border-radius: 30px;*/
+    position: relative;
+    width: 90%;
+    border-collapse: collapse;
+    /*margin: 10px 50px;*/
+    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+thead {
+    background-color: #8491ed;
+    color: #ffffff;
+}
+
+    thead th {
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+
+        thead th.categoryTH {
+            font-size: 25px;
+            background-color: #6C7AE0;
+        }
+
+tbody tr:nth-child(even) {
+    background-color: #F8F6FF;
+}
+
+tbody td {
+    padding: 15px 10px;
+    font-size: 18px;
+    text-align: right;
+}
+a {
+    padding: 15px;
+    color: #777;
+}
+    a:link {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    a:hover {
+        background-color: #6C7AE0;
+        color: #FFFFFF;
+    }
+    a:active {
+        text-decoration: underline;
+    }
+.productTitle {
+    
+    width: 35%;
+}
+.quantity {
+    width:10%;
+    text-align:center;
+}
+.description {
+    width:55%;
+    padding-right: 30px;
+    overflow: hidden;
+
+
+
+}
+header nav {
+    margin-right: 85px;
+}
+header nav ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5% 4%;
+    overflow: hidden;
+    background-color: #333;
+}
+    header nav ul li{
+        float: right;
+    }
+    header nav ul li a{
+        display: inline-block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 700;
+    }
+        header nav ul li a:hover, aside ul li a:hover {
+            background-color: #111;
+        }
+
+header::after {
+    clear: both;
+}
+
+.order{
+    width:60%;
+}
+
+.ordersBarcode {
+    width: 10%;
+    padding-right: 20%;
+}
+
+
+.ordersProducts
+{
+  width:60%;
+  padding-right:10%;
+    
+}
+.ordersQuantity {
+    width:10%;
+    padding-left:10%;
+}
+
+.changed{
+    background-color:brown;
+}
+aside {
+    text-align:right;
+    display: block;
+    float: right;
+    width: 120px;
+}
+    aside ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+        aside ul li {
+            display:block;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+            aside ul li a {
+                color: #ffffff;
+                text-align: center;
+                padding: 0px 0px;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+#content {
+    padding-top:50px;
+    margin-right:122px;
+    background-color:#ffffff;
+}
