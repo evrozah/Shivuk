@@ -10,5 +10,6 @@ namespace ShivukMVC.Models
         public int ManagerID { get; set; }
         public string Firstname { get; set; }
         public string Lastname { get; set; }
+        public int MyProperty { get; set; }
     }
 }
