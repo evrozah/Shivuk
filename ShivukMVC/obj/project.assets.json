@@ -13577,11 +13577,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\ShivukMVC\\ShivukMVC\\ShivukMVC.csproj",
+      "projectUniqueName": "D:\\Projects\\ShivukMVC_doesnt work\\ShivukMVC\\ShivukMVC.csproj",
       "projectName": "ShivukMVC",
-      "projectPath": "D:\\Projects\\ShivukMVC\\ShivukMVC\\ShivukMVC.csproj",
+      "projectPath": "D:\\Projects\\ShivukMVC_doesnt work\\ShivukMVC\\ShivukMVC.csproj",
       "packagesPath": "C:\\Users\\masab\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\ShivukMVC\\ShivukMVC\\obj\\",
+      "outputPath": "D:\\Projects\\ShivukMVC_doesnt work\\ShivukMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -8,7 +8,7 @@ using ShivukMVC.Models;
 
 namespace ShivukMVC.Controllers
 {
-    public class e3wewsaHomeController : Controller
+    public class HomeController : Controller
     {
         public IActionResult Index()
         {
